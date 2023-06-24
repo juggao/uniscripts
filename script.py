@@ -47,6 +47,7 @@ for script, characters in character_groups.items():
         print("Characters:" + s)
         Func.write("<br>"+ s+"<br><br>")
     except UnicodeEncodeError:
+        Func.write("<br><br>")
         continue
     print()
 
